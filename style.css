@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif, Arial;
+}
+.container {
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header, main {
+    padding: 30px;
+}
+
+.logo {
+    width: 120px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.logo p {
+    padding: 16px 20px;
+}
+
+main {
+    margin: 120px 0;
+}
+
+main h1 {
+    font-size: 24px;
+    color: #00b386;
+}
+
+main p {
+    margin-top: 12px;
+}
+
+.triangle-small {
+  position: relative;
+  top: -8%;
+  right: 33%;
+  width: 48%;
+  height: 79%;
+  -webkit-transform: rotate(-30deg);
+  background: #00b386;
+  border: 20px solid rgba(0,179,134,0.3);
+  background-clip: padding-box;
+  z-index: 1;
+}
+
+.triangle-large {
+  position: relative;
+  bottom: 139%;
+  left: 54%;
+  width: 120%;
+  height: 145%;
+  -webkit-transform: rotate(30deg);
+  background: #2d2d86;
+  border: 20px solid rgba(45,45,134,0.3);
+  background-clip: padding-box;
+}
